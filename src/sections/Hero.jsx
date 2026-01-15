@@ -5,7 +5,7 @@ import ComingSoon from "./ComingSoon"
 import { useMaskSettings } from "../../constants"
 
 export default function Hero() {
-	const { initialMaskPos, initialMaskSize, maskPos, maskSize } = useMaskSettings()
+	const { initialMaskPos, initialMaskSize, maskSize } = useMaskSettings()
 
 	useGSAP(() => {
 		gsap.set(".mask-wrapper", {
